@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Business — Home</title>
+  <meta name="description" content="Your trusted partner in Addis Ababa. Quality services, professional delivery." />
+  <meta property="og:title" content="Your Business" />
+  <meta property="og:description" content="Your trusted partner in Addis Ababa." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://yourusername.github.io/your-repo/" />
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#1a1a2e; line-height:1.6; }
+    nav { position:sticky; top:0; background:rgba(255,255,255,.95); backdrop-filter:blur(10px); border-bottom:1px solid #eee; padding:16px 24px; display:flex; justify-content:space-between; align-items:center; z-index:100; }
+    nav .logo { font-weight:700; font-size:18px; }
+    nav a { margin-left:20px; text-decoration:none; color:#555; font-size:14px; }
+    nav a:hover { color:#e94560; }
+    .hero { padding:80px 24px; text-align:center; max-width:720px; margin:0 auto; }
+    .hero h1 { font-size:clamp(32px,5vw,56px); margin-bottom:16px; background:linear-gradient(135deg,#1a1a2e,#e94560); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .hero p { font-size:18px; color:#555; margin-bottom:32px; }
+    .hero .btn { display:inline-block; background:#e94560; color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-weight:600; transition:transform .15s; }
+    .hero .btn:hover { transform:translateY(-2px); }
+    section { padding:64px 24px; max-width:960px; margin:0 auto; }
+    section h2 { font-size:28px; margin-bottom:24px; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
+    .card { background:#f9f9fb; border-radius:16px; padding:32px 24px; text-align:center; }
+    .card .icon { font-size:36px; margin-bottom:12px; }
+    .card h3 { font-size:18px; margin-bottom:8px; }
+    .card p { font-size:14px; color:#666; }
+    .contact-form { max-width:480px; margin:0 auto; display:flex; flex-direction:column; gap:16px; }
+    .contact-form input,.contact-form textarea { padding:14px; border:1px solid #ddd; border-radius:8px; font-size:14px; }
+    .contact-form button { background:#1a1a2e; color:#fff; padding:14px; border:none; border-radius:8px; font-size:14px; font-weight:600; cursor:pointer; }
+    .contact-form button:hover { background:#e94560; }
+    footer { text-align:center; padding:32px; color:#888; font-size:13px; border-top:1px solid #eee; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">YOUR BUSINESS</div>
+    <div>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <h1>Your Trusted Partner in Addis Ababa</h1>
+    <p>Professional services delivered with quality, speed, and integrity. We help Ethiopian businesses grow with modern digital solutions.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card"><div class="icon">&#x1F4BB;</div><h3>Service One</h3><p>Describe your core offering here. What value do you deliver?</p></div>
+      <div class="card"><div class="icon">&#x1F4F1;</div><h3>Service Two</h3><p>Describe another service. Keep it clear and benefit-focused.</p></div>
+      <div class="card"><div class="icon">&#x1F4CA;</div><h3>Service Three</h3><p>Describe a third service. Clients need to know what they get.</p></div>
+    </div>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;max-width:600px;margin:0 auto;color:#555;">We are a team of professionals dedicated to delivering exceptional service to businesses and individuals across Ethiopia. Our mission is to combine local expertise with modern best practices to help our clients succeed.</p>
+  </section>
+  <section id="contact" style="padding-bottom:80px;">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;margin-bottom:24px;color:#555;">Reach out for inquiries, quotes, or partnerships.</p>
+    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2026 Your Business. All rights reserved.</p>
+    <p style="margin-top:8px;">Built with Zero-Cost Enterprise Protocol</p>
+  </footer>
+</body>
+</html>

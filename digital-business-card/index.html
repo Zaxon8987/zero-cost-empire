@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Business Card</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:system-ui,-apple-system,sans-serif; background:#0a0a0a; color:#f5f5f5; min-height:100vh; display:flex; align-items:center; justify-content:center; }
+    .card { background:linear-gradient(135deg,#1a1a2e,#16213e); border-radius:24px; padding:48px; max-width:420px; width:90%; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,.5); border:1px solid rgba(255,255,255,.08); }
+    .avatar { width:96px; height:96px; border-radius:50%; background:linear-gradient(135deg,#e94560,#0f3460); margin:0 auto 20px; display:flex; align-items:center; justify-content:center; font-size:36px; font-weight:700; color:#fff; }
+    h1 { font-size:24px; margin-bottom:4px; }
+    .title { color:#a0a0b8; font-size:14px; margin-bottom:20px; }
+    .contact { display:flex; flex-direction:column; gap:8px; margin-bottom:24px; }
+    .contact a { color:#e94560; text-decoration:none; font-size:14px; }
+    .contact a:hover { text-decoration:underline; }
+    .actions { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+    .btn { background:#e94560; color:#fff; padding:12px 24px; border-radius:8px; text-decoration:none; font-size:14px; font-weight:600; transition:transform .15s; }
+    .btn:hover { transform:translateY(-2px); }
+    .btn-outline { background:transparent; border:1px solid rgba(255,255,255,.15); }
+    .social { display:flex; gap:16px; justify-content:center; margin-top:24px; }
+    .social a { color:#a0a0b8; text-decoration:none; font-size:13px; transition:color .15s; }
+    .social a:hover { color:#e94560; }
+    .badge { display:inline-block; background:rgba(233,69,96,.15); color:#e94560; padding:4px 12px; border-radius:20px; font-size:11px; font-weight:600; margin-bottom:16px; text-transform:uppercase; letter-spacing:.5px; }
+    footer { margin-top:24px; color:#555; font-size:11px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Your Business Name</div>
+    <div class="avatar">B</div>
+    <h1 id="businessName">Your Business</h1>
+    <p class="title" id="businessTagline">Professional Services • Addis Ababa, Ethiopia</p>
+    <div class="contact">
+      <a href="tel:" id="phoneLink">+251 91X XXX XXXX</a>
+      <a href="mailto:" id="emailLink">contact@yourbusiness.et</a>
+      <span style="font-size:13px;color:#777;" id="address">Bole Road, Addis Ababa</span>
+    </div>
+    <div class="actions">
+      <a href="#" class="btn" id="whatsappBtn">WhatsApp</a>
+      <a href="#" class="btn btn-outline" id="telegramBtn">Telegram</a>
+    </div>
+    <div class="social">
+      <a href="#" id="facebookLink">Facebook</a>
+      <a href="#" id="instagramLink">Instagram</a>
+      <a href="#" id="youtubeLink">YouTube</a>
+    </div>
+    <footer>Powered by Zero-Cost Enterprise</footer>
+  </div>
+  <script>
+    fetch('config.json').then(r=>r.json()).then(c=>{
+      if(c.businessName) document.getElementById('businessName').textContent=c.businessName;
+      if(c.tagline) document.getElementById('businessTagline').textContent=c.tagline;
+      if(c.phone){ document.getElementById('phoneLink').href='tel:'+c.phone; document.getElementById('phoneLink').textContent=c.phone; }
+      if(c.email){ document.getElementById('emailLink').href='mailto:'+c.email; document.getElementById('emailLink').textContent=c.email; }
+      if(c.address) document.getElementById('address').textContent=c.address;
+      if(c.whatsapp) document.getElementById('whatsappBtn').href='https://wa.me/'+c.whatsapp;
+      if(c.telegram) document.getElementById('telegramBtn').href='https://t.me/'+c.telegram;
+      if(c.facebook) document.getElementById('facebookLink').href=c.facebook;
+      if(c.instagram) document.getElementById('instagramLink').href=c.instagram;
+      if(c.youtube) document.getElementById('youtubeLink').href=c.youtube;
+    }).catch(()=>{});
+  </script>
+</body>
+</html>
