@@ -1,0 +1,22 @@
+{
+  "spec_version": "1.0",
+  "server_id": "calculate-shaft-mechanics",
+  "display_name": "Shaft Mechanics Calculator",
+  "description": "Production-grade mechanical engineering tool. Calculates factor-of-safety for rotating shafts under torsion using standard formulas. Metered at $0.02/call with 85% creator revenue share.",
+  "tags": ["engineering", "mechanical", "shaft-design", "factor-of-safety", "torsion"],
+  "runtime": "node",
+  "transport": "stdio",
+  "pricing": {
+    "model": "outcome-based",
+    "rate": 0.02,
+    "currency": "USD"
+  },
+  "creator_revenue_split": 0.85,
+  "payout": {
+    "type": "bitcoin",
+    "wallet_ref": ".opencode/vault/bitcoin.json"
+  },
+  "published_at": null,
+  "marketplace_url": "https://mcpize.com/servers/calculate-shaft-mechanics",
+  "registry_endpoint": "https://registry.mcpize.com/v1/servers"
+}

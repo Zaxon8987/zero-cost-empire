@@ -1,0 +1,19 @@
+{
+  "name": "@spt/calculate-shaft-mechanics",
+  "version": "1.0.0",
+  "description": "MCP server: engineering shaft mechanics calculator with metered billing",
+  "type": "module",
+  "main": "server.js",
+  "mcpize": {
+    "serverId": "calculate-shaft-mechanics",
+    "runtime": "node",
+    "transport": "stdio",
+    "registry": "mcpize-public"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "validate": "node --check server.js",
+    "publish": "echo 'mcpize:publish protocol — server ready for registry upload'"
+  },
+  "dependencies": {}
+}

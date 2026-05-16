@@ -1,0 +1,34 @@
+{
+  "manifest_version": 1,
+  "server_id": "calculate-shaft-mechanics",
+  "pricing": {
+    "model": "outcome-based",
+    "currency": "USD",
+    "rate_per_calculation": 0.02,
+    "billing_trigger": "on_successful_response"
+  },
+  "revenue_split": {
+    "creator_share": 0.85,
+    "platform_share": 0.15,
+    "settlement": "daily"
+  },
+    "payout": {
+      "method": "hybrid",
+      "primary": "bitcoin",
+      "secondary": "mobile_money",
+      "wallet_config_ref": ".opencode/vault/bitcoin.json",
+      "mobile_config_ref": ".config/opencode/vault/payment_methods.json",
+      "phone_number": "0986540218",
+      "derivation_path": "m/84'/0'/0'/0/0",
+      "min_payout": 10.00
+    },
+  "audit": {
+    "transaction_log": "transaction-log.ndjson",
+    "append_only": true,
+    "format": "ndjson"
+  },
+  "discovery": {
+    "categories": ["engineering", "mechanical", "calculation"],
+    "visibility": "public"
+  }
+}

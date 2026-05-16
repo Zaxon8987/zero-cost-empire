@@ -1,12 +1,18 @@
 {
-  "businessName": "Your Business Name",
-  "tagline": "Professional Services • Addis Ababa, Ethiopia",
-  "phone": "+251 91X XXX XXXX",
-  "email": "contact@yourbusiness.et",
-  "address": "Bole Road, Addis Ababa",
-  "whatsapp": "25191XXXXXXX",
-  "telegram": "yourbusiness",
-  "facebook": "https://facebook.com/yourbusiness",
-  "instagram": "https://instagram.com/yourbusiness",
-  "youtube": "https://youtube.com/@yourbusiness"
+  "businessName": "Gebo General Trading PLC",
+  "tagline": "Your Trusted Partner in Quality Trading & Logistics in Addis Ababa",
+  "phone": "0911235532",
+  "email": "info@gebotrading.et",
+  "address": "Mahatma Ghandi St, Addis Ababa, Ethiopia",
+  "socials": {
+    "telegram": "https://t.me/gebotrading",
+    "facebook": "https://facebook.com/gebotrading",
+    "whatsapp": "https://wa.me/251911235532"
+  },
+  "services": [
+    "General Trading",
+    "Import & Export",
+    "Logistics & Distribution",
+    "Wholesale Supply"
+  ]
 }
