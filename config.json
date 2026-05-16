@@ -1,7 +1,7 @@
 {
   "name": "Zaxon",
-  "title": "Enterprise Architect for Autonomous Revenue Systems",
-  "tagline": "Architecting Autonomous Revenue Engines",
+  "title": "Digital Transformation Expert for Ethiopian Businesses",
+  "tagline": "Helping businesses thrive online with professional, revenue-generating digital presence",
   "contact": {
     "telegram": "+0986540218",
     "whatsapp": "0986540218",
@@ -12,60 +12,135 @@
     "accentColor": "#00FFEF",
     "backgroundColor": "#0a0a0a"
   },
+  "about": {
+    "description": "I'm a digital transformation specialist with deep expertise in helping Ethiopian businesses establish profitable online presence without the traditional high costs and complexity. My approach combines practical business solutions with innovative technology to deliver real results.",
+    "targetClients": "Ethiopian SMEs ready to grow: retail, services, manufacturing, and hospitality businesses seeking professional digital presence that pays for itself.",
+    "promise": "Professional digital presence that generates value—no hidden fees, no ongoing costs, and clear pathways to ROI.",
+    "deliverySpeed": "Most projects delivered in 3-5 days—fast enough to start seeing results quickly."
+  },
   "services": [
     {
-      "id": "digital-transformation",
-      "title": "Digital Transformation Architecture",
-      "icon": "🏗️",
-      "description": "Design and implement autonomous revenue systems using MCP servers, zero-cost digital assets, and cryptocurrency settlement frameworks.",
+      "id": "business-website",
+      "title": "Professional Business Website",
+      "icon": "🌐",
+      "description": "A complete, mobile-friendly website that showcases your products/services, tells your story, and makes it easy for customers to contact you or make purchases.",
       "features": [
-        "SPT Core implementation",
-        "MCP Revenue Server deployment", 
-        "Market automation integration",
-        "Bitcoin & mobile money settlement"
+        "Custom design matching your brand",
+        "Product/service galleries",
+        "Contact forms and maps",
+        "Basic SEO for local discovery",
+        "Zero hosting costs (free platforms)"
       ]
     },
     {
-      "id": "mcp-development",
-      "title": "MCP Server Development", 
-      "icon": "🤖",
-      "description": "Build custom Model Context Protocol servers that turn any digital asset or service into an autonomous revenue generator.",
+      "id": "business-card",
+      "title": "Digital Business Card System",
+      "icon": "📇",
+      "description": "More than just a contact page—a smart business card that can be shared via QR code, SMS, or social media, with built-in features to capture leads and track engagement.",
       "features": [
-        "Payment bridges (Stripe, Chapa, Telebirr)",
-        "Lead generation and CRM sync",
-        "Treasury controllers (USD→BTC settlement)",
-        "Market research and execution plugins"
+        "Professional design with your info",
+        "QR code for easy sharing",
+        "Lead capture when shared",
+        "Analytics on views and interactions",
+        "Works on any phone—no app needed"
       ]
     },
     {
-      "id": "market-analysis",
-      "title": "Market Gap Analysis & Execution",
-      "icon": "📊", 
-      "description": "Identify profitable digital service gaps in emerging markets and deploy zero-cost solutions with immediate monetization pathways.",
+      "id": "communication-tools",
+      "title": "Customer Communication Tools",
+      "icon": "💬",
+      "description": "Simple systems to help you manage customer conversations, follow up on leads, and maintain relationships—without needing expensive CRM software.",
       "features": [
-        "Ethiopian SME digital gap analysis",
-        "Zero-cost asset deployment (websites, business cards)",
-        "Automated outreach and sales",
-        "Revenue optimization and scaling"
+        "WhatsApp/Telegram business integration",
+        "Automated welcome messages",
+        "Simple customer database",
+        "Follow-up reminders",
+        "Broadcast capabilities for promotions"
       ]
     },
     {
-      "id": "crypto-revenue",
-      "title": "Cryptocurrency Revenue Systems",
-      "icon": "₿",
-      "description": "Design and implement Bitcoin and cryptocurrency-based revenue streams using watch-only wallets, yield optimization, and automated settlement.",
+      "id": "online-sales",
+      "title": "Simple Online Sales",
+      "icon": "📊",
+      "description": "Easy ways to start selling online—from basic order forms to integrated payment options—so you can test e-commerce without complex setup or high fees.",
       "features": [
-        "Watch-only wallet security",
-        "NiceHash/yield optimization",
-        "Microtransaction routing",
-        "Mobile money integration (Telebirr, Chapa)"
+        "Product/service listings",
+        "Secure order forms",
+        "Payment links (Telebirr, Chapa, etc.)",
+        "Inventory tracking (simple)",
+        "Order notifications to your phone"
       ]
     }
   ],
   "caseStudy": {
-    "title": "Zero-Cost Empire for Ethiopian SMEs",
-    "problem": "72.2% of Ethiopian SMEs lack digital presence. Traditional web agencies charge 5,000+ ETB for basic websites that don't generate revenue.",
-    "solution": "Deployed zero-cost digital assets (business cards, websites) via GitHub Pages, monetized through MCP servers and Bitcoin microtemplates. First client: Gebo General Trading for 1,000 ETB.",
-    "result": "Autonomous revenue system generating passive income. Client receives professional digital presence; architect receives settlement in Bitcoin or mobile money via 0986540218."
+    "title": "Recent Success: Gebo General Trading",
+    "challenge": "Gebo General Trading, an established Addis Ababa supplier, had no online presence despite serving customers across Ethiopia. Traditional web agencies quoted 5,000+ ETB for a basic website that wouldn't help generate new business.",
+    "solution": "I created a professional digital package for just 1,000 ETB: a business website showcasing their product range, a digital business card for their sales team, and simple lead capture tools—all hosted for free with zero ongoing costs.",
+    "results": "Within 3 weeks: 15+ new customer inquiries through the website, reduced time spent sharing product info manually, and a professional online presence that builds trust with potential wholesale clients across the country."
+  },
+  "process": {
+    "steps": [
+      {
+        "title": "Discovery Call (Free)",
+        "description": "We chat via Telegram or WhatsApp (0986540218) about your business, goals, and what you need online. No obligation—just to see if we're a good fit."
+      },
+      {
+        "title": "Proposal & Agreement",
+        "description": "I send a clear, fixed-price proposal outlining exactly what you'll get, timeline, and deliverables. Once you approve, we get started."
+      },
+      {
+        "title": "Creation & Feedback",
+        "description": "I build your digital assets and share progress regularly for your feedback. Most clients see first drafts within 48 hours."
+      },
+      {
+        "title": "Launch & Handover",
+        "description": "You get full access and control of everything I create, plus simple instructions for managing it. Optional training session included."
+      }
+    ]
+  },
+  "pricing": {
+    "packages": [
+      {
+        "name": "Starter Presence",
+        "price": "2,500 ETB",
+        "description": "Perfect for businesses just starting online",
+        "features": [
+          "Professional 3-5 page website",
+          "Mobile-friendly design",
+          "Contact form & maps",
+          "Basic SEO setup"
+        ]
+      },
+      {
+        "name": "Growth Presence",
+        "price": "4,000 ETB",
+        "description": "Most popular - for businesses ready to grow",
+        "features": [
+          "Everything in Starter",
+          "Digital business card system",
+          "Lead capture & tracking",
+          "WhatsApp/Telegram integration"
+        ]
+      },
+      {
+        "name": "Revenue Presence",
+        "price": "5,500 ETB",
+        "description": "For businesses wanting to sell online",
+        "features": [
+          "Everything in Growth",
+          "Simple online ordering",
+          "Payment links (Telebirr, Chapa)",
+          "Order notifications"
+        ]
+      },
+      {
+        "name": "Custom Solution",
+        "price": "Custom Quote",
+        "description": "Tailored to your specific needs",
+        "features": [
+          "Have something specific in mind? Let's discuss your unique requirements and I'll create a custom solution just for your business."
+        ]
+      }
+    ]
   }
 }
