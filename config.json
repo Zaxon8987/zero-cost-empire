@@ -1,0 +1,71 @@
+{
+  "name": "Zaxon",
+  "title": "Enterprise Architect for Autonomous Revenue Systems",
+  "tagline": "Architecting Autonomous Revenue Engines",
+  "contact": {
+    "telegram": "+0986540218",
+    "whatsapp": "0986540218",
+    "email": "contact@zaxon.example.com"
+  },
+  "branding": {
+    "primaryColor": "#FFD700",
+    "accentColor": "#00FFEF",
+    "backgroundColor": "#0a0a0a"
+  },
+  "services": [
+    {
+      "id": "digital-transformation",
+      "title": "Digital Transformation Architecture",
+      "icon": "🏗️",
+      "description": "Design and implement autonomous revenue systems using MCP servers, zero-cost digital assets, and cryptocurrency settlement frameworks.",
+      "features": [
+        "SPT Core implementation",
+        "MCP Revenue Server deployment", 
+        "Market automation integration",
+        "Bitcoin & mobile money settlement"
+      ]
+    },
+    {
+      "id": "mcp-development",
+      "title": "MCP Server Development", 
+      "icon": "🤖",
+      "description": "Build custom Model Context Protocol servers that turn any digital asset or service into an autonomous revenue generator.",
+      "features": [
+        "Payment bridges (Stripe, Chapa, Telebirr)",
+        "Lead generation and CRM sync",
+        "Treasury controllers (USD→BTC settlement)",
+        "Market research and execution plugins"
+      ]
+    },
+    {
+      "id": "market-analysis",
+      "title": "Market Gap Analysis & Execution",
+      "icon": "📊", 
+      "description": "Identify profitable digital service gaps in emerging markets and deploy zero-cost solutions with immediate monetization pathways.",
+      "features": [
+        "Ethiopian SME digital gap analysis",
+        "Zero-cost asset deployment (websites, business cards)",
+        "Automated outreach and sales",
+        "Revenue optimization and scaling"
+      ]
+    },
+    {
+      "id": "crypto-revenue",
+      "title": "Cryptocurrency Revenue Systems",
+      "icon": "₿",
+      "description": "Design and implement Bitcoin and cryptocurrency-based revenue streams using watch-only wallets, yield optimization, and automated settlement.",
+      "features": [
+        "Watch-only wallet security",
+        "NiceHash/yield optimization",
+        "Microtransaction routing",
+        "Mobile money integration (Telebirr, Chapa)"
+      ]
+    }
+  ],
+  "caseStudy": {
+    "title": "Zero-Cost Empire for Ethiopian SMEs",
+    "problem": "72.2% of Ethiopian SMEs lack digital presence. Traditional web agencies charge 5,000+ ETB for basic websites that don't generate revenue.",
+    "solution": "Deployed zero-cost digital assets (business cards, websites) via GitHub Pages, monetized through MCP servers and Bitcoin microtemplates. First client: Gebo General Trading for 1,000 ETB.",
+    "result": "Autonomous revenue system generating passive income. Client receives professional digital presence; architect receives settlement in Bitcoin or mobile money via 0986540218."
+  }
+}
