@@ -1,0 +1,30 @@
+{
+  "unified_billing": {
+    "treasury_controller": "treasury-controller.js",
+    "wallet_config": ".opencode/vault/bitcoin.json",
+    "payout_currency": "BTC",
+    "base_currency": "USD",
+    "conversion_logic": "real_time_market_rate"
+  },
+  "servers": {
+    "payment-bridge": {
+      "price_per_call": 0.05,
+      "revenue_split": 0.85,
+      "registry_id": "payment-bridge-spt"
+    },
+    "local-lead-gen": {
+      "price_per_call": 0.03,
+      "revenue_split": 0.85,
+      "registry_id": "local-lead-gen-spt"
+    },
+    "api-glue": {
+      "price_per_call": 0.02,
+      "revenue_split": 0.85,
+      "registry_id": "api-glue-spt"
+    }
+  },
+  "audit": {
+    "log_file": "settlement-log.ndjson",
+    "append_only": true
+  }
+}

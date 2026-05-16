@@ -1,0 +1,2 @@
+{"seq":0,"event":"LOG_INIT","version":"1.0.0","server":"calculate-shaft-mechanics","timestamp":"2026-05-16T06:28:00Z","manifest":"billing-manifest.json"}
+{"seq":1,"event":"TOOL_CALL","tool":"calculate_shaft_mechanics","input_hash":"3959d71763d6df07","billed":0.02,"status":"success","timestamp":"2026-05-16T06:28:55.300Z"}
